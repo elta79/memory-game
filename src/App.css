@@ -1,0 +1,65 @@
+:root {
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.title{
+  font-size: 80px;
+}
+.rules{
+  font-size: 30px;
+}
+button{
+  margin-top:50px;
+  font-size:20px;
+  background-color: fuchsia;
+  border:none;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.game-board{
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+  grid-column-gap: 14px;
+  grid-row-gap: 8px;
+  padding-top: 50px;
+  width:70%;
+  margin:auto;
+
+}
+.card{
+  position: relative;
+}
+.card img{
+  width: 100%;
+  display: block;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.card .front{
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+.flipped .front{
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+.card .back{
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .back{
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+.turns{
+  font-size: 20px;
+  padding-top: 50px;
+}
