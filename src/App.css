@@ -4,12 +4,15 @@
   color: white;
   text-align: center;
   width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 .title{
-  font-size: 80px;
+  font-size: 4rem;
+  color:#26BEDC;
 }
 .rules{
-  font-size: 30px;
+  font-size: 1.5rem;
+  color: #74D88E;
 }
 button{
   margin-top:50px;
@@ -63,3 +66,10 @@ button{
   font-size: 20px;
   padding-top: 50px;
 }
+
+@media (width <= 1250px){
+  .game-board{
+    width: 95%;
+  }
+}
+  
