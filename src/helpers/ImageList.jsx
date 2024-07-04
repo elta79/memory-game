@@ -1,18 +1,18 @@
 export const ImageList = [
   
   {    
-    name: 'cat',
-    image: '/images/cat.jpeg',
+    name: 'crones',
+    image: '/images/crones.jpeg',
     matched: false,
   },
   {
-    name: 'dice',
-    image: '/images/dice.jpeg',
+    name: 'nerd',
+    image: '/images/nerd.jpeg',
     matched: false,
   },
   {
-    name: 'dragon',
-    image: '/images/dragon.jpeg',
+    name: 'lee',
+    image: '/images/lee.jpeg',
     matched: false,
   },
   {
@@ -40,6 +40,5 @@ export const ImageList = [
     image: '/images/scar.jpeg',
     matched: false,
   },
-
 
 ]

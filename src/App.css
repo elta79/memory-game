@@ -99,5 +99,26 @@ button{
   .game-board{
     width: 95%;
   }
+  .modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    margin:0;
+    padding: 1rem;
+    width: 60%;
+    height:50%;
+    
+  }
+  .winner-message{
+    margin: auto;
+    font-size: 1.5rem;
+    padding:0;
+    line-height: 3rem;
+    text-shadow: 0.5px 0.5px 0.5px rgb(40, 40, 40);
+    text-align: center;
+    
+  }
 }
   
