@@ -72,9 +72,8 @@ function Gameboard( ){
   //when all cards match, display winner page
   useEffect(() =>{
     console.log("matched count", matchedCount)
-    if (matchedCount === 8){
-      console.log("winner!!")
-      setOpen(true)
+    if (matchedCount === 8){      
+      setTimeout(() => setOpen(true), 1000)
     }
   }, [matchedCount])
   
