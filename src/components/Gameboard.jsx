@@ -73,7 +73,7 @@ function Gameboard( ){
   useEffect(() =>{
     console.log("matched count", matchedCount)
     if (matchedCount === 8){      
-      setTimeout(() => setOpen(true), 1000)
+      setTimeout(() => setOpen(true), 1500)
     }
   }, [matchedCount])
   
