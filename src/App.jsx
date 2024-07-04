@@ -3,7 +3,7 @@ import Gameboard from './components/Gameboard'
 import './App.css'
 
 function App() {
- 
+  // const [ revealed, setRevealed ] = useState(false)
 
   return (
     <>

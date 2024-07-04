@@ -15,26 +15,54 @@
   color: #74D88E;
 }
 button{
-  margin-top:50px;
-  font-size:20px;
-  background-color: fuchsia;
+  margin:auto;
+  font-size:15px;
+  background-color: #E26CB5;
   border:none;
-  border-radius: 15px;
-  padding: 10px 20px;
+  border-radius: 6px;
+  padding: 2px 5px;
+  color: yellow;
+}
+.board-container{
+  position: relative;
 }
 .game-board{
+  position: relative;
   display: grid;
   box-sizing: border-box;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  
+  grid-template-rows: 1fr 1fr 1fr 1fr;  
   grid-column-gap: 14px;
   grid-row-gap: 8px;
   padding-top: 50px;
   width:70%;
   margin:auto;
-
 }
+.modal{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  background-color: #11CFB9;
+  height:500px;
+  width: 500px;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+}
+.winner-message{
+  margin: auto;
+  padding: 3rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  
+}
+
+
 .card{
   position: relative;
 }

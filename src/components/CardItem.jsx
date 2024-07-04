@@ -13,7 +13,7 @@ function CardItem({ card, flipCard, flipped, disabled }){
     <>
       <div className='card'>
         <div className={flipped ? "flipped": ""}>
-        <img 
+          <img 
             className='front' 
             src={card.image} 
             alt='card front'
